@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ACD19B;
+    color: #00000;
+}
+
+header {
+    background-color: #ACD19B;
+    color: #00000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #63964C;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#volver-Indice {
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
+    padding: 10px 15px;
+    background-color: #96E274;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+#volver-Indice:hover {
+    background-color: #81CE5E; 
+}
+
+ .imagen-derecha {
+            float: right;
+            margin-left: 20px; /* Espacio entre la imagen y el texto */
+        }
+.imagen-centro {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%; /* Ajusta el tamaño si es necesario */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+
+  /* Estilo para los videos */
+        .video-container {
+            margin: 20px; /* Ajusta el margen como desees */
+            border: 2px solid #ccc; /* Opcional: para visualizar el contenedor */
